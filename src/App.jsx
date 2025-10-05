@@ -1,9 +1,11 @@
-import PortfolioMonotone from "./pages/PortfolioMonotone";
+import Portfolio from "./pages/Portfolio";
+import { Analytics } from "@vercel/analytics/next";
 
 function App() {
   return (
     <>
-      <PortfolioMonotone />
+      <Portfolio />
+      <Analytics />
     </>
   );
 }

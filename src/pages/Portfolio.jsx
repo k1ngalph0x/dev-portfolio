@@ -22,7 +22,7 @@ import {
   Shield,
 } from "lucide-react";
 
-const PortfolioMonotone = () => {
+const Portfolio = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [activeSection, setActiveSection] = useState("");
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -161,9 +161,9 @@ const PortfolioMonotone = () => {
       techs: ["Python", "FastAPI", "Postgres", "AWS", "Flutter"],
     },
     {
-      company: "Ekahastra",
+      company: "El-Shaddai",
       position: "Software Engineer",
-      duration: "Jul 2023 — Dec 2023",
+      duration: "Jul 2023 — Apr 2024",
       location: "India",
       highlights: [
         "Designed and built backend services for a construction project management platform, enabling project estimation, tracking, and collaboration features that improved completion rates by 25%",
@@ -739,4 +739,4 @@ const PortfolioMonotone = () => {
   );
 };
 
-export default PortfolioMonotone;
+export default Portfolio;
